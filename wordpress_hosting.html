@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="description" content="UHost">
+<meta name="author" content="RedCheap Theme">
+<title>UHost - Web Hosting | VPS Server | Dedicated Server</title>
+<link rel="icon" type="image/png" sizes="56x56" href="image/favicon.png">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/swiper-bundle.css">
+</head>
+<body>
+<!-- ======= Header ======= -->
+<header id="header" class="header  mx-md-3">
+  <div class="container pt-md-3">
+    <div class="row justify-content-end">
+      <div class="col-md-6 col-12">
+        <div class="d-flex justify-content-end">
+          <select class="form-select rounded-0 w-25 form-select-sm mx-2 border-0" aria-label=".form-select-sm example">
+            <option selected disabled class="fs-10">Language</option>
+            <option value="1">English</option>
+            <option value="2">Hindi</option>
+            <option value="3">Punjabi</option>
+          </select>
+          <select class="form-select rounded-0 w-25 form-select-sm border-0" aria-label=".form-select-sm example">
+            <option selected disabled class="fs-10">Currency</option>
+            <option value="1">INR</option>
+            <option value="2">GPB</option>
+            <option value="3">USD</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-lg d-flex align-items-center justify-content-between"> <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0"> <img src="image/logo.png" alt="uhost whmcs theme"> </a>
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li> <a class="nav-link " href="index.html">Home</a> </li>
+        <li class="dropdown"> <a href="#"> <span class="dropdown_after">Domain</span> </a>
+          <ul>
+            <li> <a href="domain_search.html" class="">Domain Search</a> </li>
+            <li> <a href="domain_transfer.html">Domain Transfer</a> </li>
+          </ul>
+        </li>
+        <li class="dropdown megamenu"> <a href="#" class="active"> <span class="dropdown_after">Services</span> </a>
+          <ul>
+            <li>
+              <h6 class="mega_menu_heading">Hosting</h6>
+              <a href="shared_hosting.html">Shared Hosting</a> <a href="reseller_hosting.html">Reseller Hosting</a> <a href="wordpress_hosting.html" class="active">Wordpress hosting</a> </li>
+            <li>
+              <h6 class="mega_menu_heading">Server</h6>
+              <a href="dedicated_server.html">Dedicated Server</a> <a href="vps_server.html">VPS Server</a> <a href="cloud_hosting.html">Cloud Hosting</a> </li>
+          </ul>
+        </li>
+        <li class="dropdown megamenu"> <a href="#" class=""> <span class="dropdown_after">Email & Security</span> </a>
+          <ul>
+            <li>
+              <h6 class="mega_menu_heading">Email</h6>
+              <a href="google_workspace.html">Google Workspace </a> <a href="business_email.html">Business Email</a> <a href="enterprise_email.html">Enterprise Email</a> </li>
+            <li>
+              <h6 class="mega_menu_heading">SSL Security</h6>
+              <a href="ssl_certificates.html">SSL Certificates</a> <a href="website_security.html">Website Security</a> <a href="website_backup.html">Website Backup</a> </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span class="dropdown_after">Support</span> </a>
+          <ul>
+            <li> <a href="open_ticket.html" class="">Open Ticket</a> </li>
+            <li> <a href="tickets.html">Tickets</a> </li>
+            <li> <a href="announcements.html">Announcements</a> </li>
+            <li> <a href="knowledgebase.html">Knowledgebase</a> </li>
+            <li> <a href="network_status.html">Network Status</a> </li>
+            <li> <a href="contact_us.html">Contact Us</a> </li>
+          </ul>
+        </li>
+        <li> <a class="nav-link" href="about_us.html">About Us</a> </li>
+      </ul>
+    </nav>
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger rounded-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa fa-user ms-2"></i> Account </button>
+      <ul class="dropdown-menu dropdown-menuUser">
+        <li> <a class="dropdown-item dropdown-itemUser" href="login.html">Login</a> </li>
+        <li> <a class="dropdown-item dropdown-itemUser" href="registar.html">Register</a> </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li> <a class="dropdown-item dropdown-itemUser" href="forgot_password.html">Forgot Password</a> </li>
+      </ul>
+    </div>
+    <a class="btn d-lg-none d-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> <i class="fa fa-bars fw-bold fs-30"></i> </a> 
+    <!-- header mobile view -->
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="image/logo.png" class="img-fluid w-50" alt="uhost whmcs theme"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p class="p-3 pb-0 mb-0"> <a href="index.html" class="">Home</a></p>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"> Domain </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse p-3" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="domain_search.html" class="nav-link p-0 text-muted">Domain Search</a> </li>
+                <li class="nav-item mb-2"> <a href="domain_transfer.html" class="nav-link p-0 text-muted">Domain Transfer</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="true" aria-controls="flush-collapseTwo"> Services </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse show p-3" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="shared_hosting.html" class="nav-link p-0 text-muted">Shared Hosting</a> </li>
+                <li class="nav-item mb-2"> <a href="reseller_hosting.html" class="nav-link p-0 text-muted">Reseller Hosting</a> </li>
+                <li class="nav-item mb-2"> <a href="wordpress_hosting.html" class="nav-link p-0 text-muted active_mob_view">Wordpress hosting</a> </li>
+                <li class="nav-item mb-2"> <a href="dedicated_server.html" class="nav-link p-0 text-muted">Dedicated Server</a> </li>
+                <li class="nav-item mb-2"> <a href="vps_server.html" class="nav-link p-0 text-muted">VPS Server</a> </li>
+                <li class="nav-item mb-2"> <a href="cloud_hosting.html" class="nav-link p-0 text-muted">Cloud Hosting</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"> Email & Security </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse p-3" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="google_workspace.html" class="nav-link p-0 text-muted">Google Workspace </a> </li>
+                <li class="nav-item mb-2"> <a href="business_email.html" class="nav-link p-0 text-muted">Business Email</a> </li>
+                <li class="nav-item mb-2"> <a href="enterprise_email.html" class="nav-link p-0 text-muted">Enterprise Email</a> </li>
+                <li class="nav-item mb-2"> <a href="ssl_certificates.html" class="nav-link p-0 text-muted">SSL Certificates</a> </li>
+                <li class="nav-item mb-2"> <a href="website_security.html" class="nav-link p-0 text-muted">Website Security</a> </li>
+                <li class="nav-item mb-2"> <a href="website_backup.html" class="nav-link p-0 text-muted">Website Backup</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour"> Support </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse p-3" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="open_ticket.html" class="nav-link p-0 text-muted">Open Ticket</a> </li>
+                <li class="nav-item mb-2"> <a href="tickets.html" class="nav-link p-0 text-muted">Tickets</a> </li>
+                <li class="nav-item mb-2"> <a href="announcements.html" class="nav-link p-0 text-muted">Announcements</a> </li>
+                <li class="nav-item mb-2"> <a href="knowledgebase.html" class="nav-link p-0 text-muted">Knowledgebase</a> </li>
+                <li class="nav-item mb-2"> <a href="network_status.html" class="nav-link p-0 text-muted">Network Status</a> </li>
+                <li class="nav-item mb-2"> <a href="contact_us.html" class="nav-link p-0 text-muted">Contact Us</a> </li>
+              </ul>
+            </div>
+          </div>
+          <p class="p-3 pb-0"> <a href="about_us.html">About Us</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="pt-5 mx-md-3 hero_two mt-md-3 pt-md-50 pt-50 position-relative z-index-5">
+  <div class="container py-5">
+    <div class="row align-items-center g-5 py-5">
+      <div class="col-md-6 col-12">
+        <h1 class="display-4 banner_heading fw-bold lh-2 mb-3"><span class="text_styles_underline">WordPress</span> powered by our Cloud Hosting</h1>
+        <p class="lead">A secure, reliable and powerful platform crafted for WordPress</p>
+        <a href="#princing" class=" effect-1 fw-500 tran3s">Get Started Now</a> </div>
+      <div class="col-md-5 ms-md-auto  col-12"> <img class="img-fluid" src="image/domain-4.svg" alt="uhost whmcs theme"> </div>
+    </div>
+  </div>
+</section>
+<section class="our_client mt-md-5 my-3">
+  <div class="container ">
+    <div class="row mt-4">
+      <div class="col-xxl-11 m-auto">
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="img_box text-center"> <a href="#" class=""> <img src="image/5.png" alt="uhost whmcs theme"> </a> </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-6">
+            <div class="img_box text-center"> <a href="#" class=""> <img src="image/6.png" alt="uhost whmcs theme"> </a> </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="img_box text-center"> <a href="#" class=""> <img src="image/7.png" alt="uhost whmcs theme"> </a> </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-6">
+            <div class="img_box text-center"> <a href="#" class=""> <img src="image/8.png" alt="uhost whmcs theme"> </a> </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-6">
+            <div class="img_box text-center"> <a href="#" class=""> <img src="image/9.png" alt="uhost whmcs theme"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="shared_plan my-md-5 my-3 princing" id="princing">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-12 text-center">
+        <h1 class="main_headings">Choose Your <span class="text_styles_underline">WordPress</span> Hosting Plan</h1>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-12">
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item princing_button" role="presentation">
+            <button class="nav-link  active rounded-pill rounded_right_bottom0" id="pills-monthly-tab" data-bs-toggle="pill" data-bs-target="#pills-monthly" type="button" role="tab" aria-controls="pills-monthly" aria-selected="true">Monthly</button>
+          </li>
+          <li class="nav-item princing_button" role="presentation">
+            <button class="nav-link  rounded-pill rounded_left_bottom0" id="pills-yearly-tab" data-bs-toggle="pill" data-bs-target="#pills-yearly" type="button" role="tab" aria-controls="pills-yearly" aria-selected="false" tabindex="-1">Yearly</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="tab-content Princing_tables" id="pills-tabContent">
+      <div class="tab-pane show active" id="pills-monthly" role="tabpanel" aria-labelledby="pills-monthly-tab">
+        <div class="row gx-xxl-5 gy-4 align-items-center ">
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Shared Hosting</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#E2F2FD;">
+                <div class="princing_price text-center fw-500 m-auto"> $100.99 <span>/mo</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Shared Hosting</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#FFEBEB;">
+                <div class="princing_price text-center fw-500 m-auto"> $100.99 <span>/mo</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Shared Hosting</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#FFF7EB;">
+                <div class="princing_price text-center fw-500 m-auto"> $100.99 <span>/mo</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane " id="pills-yearly" role="tabpanel" aria-labelledby="pills-yearly-tab">
+        <div class="row gx-xxl-5 gy-4 align-items-center">
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Shared Hosting</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#E2F2FD;">
+                <div class="princing_price text-center fw-500 m-auto"> $130.99 <span>/yr</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Shared Hosting</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#FFEBEB;">
+                <div class="princing_price text-center fw-500 m-auto"> $120.99 <span>/yr</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Shared Hosting</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#FFF7EB;">
+                <div class="princing_price text-center fw-500 m-auto"> $110.99 <span>/yr</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- It just works Auto-magically -->
+<section class="features my-md-5">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-md-8 col-12">
+        <h2 class="main_headings fw-600"> It just <span class="text_styles_underline">works</span> Auto-magically </h2>
+      </div>
+    </div>
+    <div class="row gx-xxl-5 gy-4 mt-md-4 mt-2 align-items-stretch">
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/files.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">Auto-Setup</h4>
+          <p class="mb-5">No need for any legwork - Your WordPress hosting comes pre-configured with the latest version of WordPress and is ready-to-use the moment you buy it.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/files.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">Auto-Setup</h4>
+          <p class="mb-5">No need for any legwork - Your WordPress hosting comes pre-configured with the latest version of WordPress and is ready-to-use the moment you buy it.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/leptop.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">Auto-Updates</h4>
+          <p class="mb-5">Any patches or version upgrades released by WordPress are automatically installed for your packages, not only making your sites future-proof but also more secure.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/graph.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">Auto-Backups</h4>
+          <p class="mb-5">Get a time machine for all your WordPress sites. With CodeGuard automatically set up for any site you create, your data is always protected and regularly backed up.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/video.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">Auto-Caching</h4>
+          <p class="mb-5">Get the best-performing WordPress sites with our Cloud Hosting. With cache and CDN auto-configured on all your packages, pages load much faster with the least amount of resources.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/cloud.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">Auto-Secured</h4>
+          <p class="mb-5">No need to worry about viruses or hacking attempts. All your WordPress sites will be regularly scanned for malware with SiteLock's advanced security tools.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="position-relative feature-two my-md-5 my-3">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-5">
+        <h2 class="main_headings">WordPress powers 27% of websites on the <span class="text_styles_underline">Internet</span></h2>
+        <p class="small_headings fs-20">Build anything - a blog, a static website or an ecommerce shop</p>
+      </div>
+      <div class="col-lg-7 col-md-9 m-auto text-center text-lg-right">
+        <div class="show_container position-relative ms-auto"> <img src="image/circle.svg" class="shapes bg-round-shape" alt="uhost whmcs theme">
+          <div class="block-content">
+            <div class="row gx-xxl-5 align-items-center">
+              <div class="col-sm-6">
+                <div class="card_style_three">
+                  <div class="icon d-flex align-items-end"> <img src="image/bookmark2.svg" alt="uhost whmcs theme"> </div>
+                  <h4>Ready-made Themes</h4>
+                </div>
+                <div class="card_style_three">
+                  <div class="icon d-flex align-items-end"> <img src="image/diamond2.svg" alt="uhost whmcs theme"> </div>
+                  <h4>SEO-friendly</h4>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card_style_three">
+                  <div class="icon d-flex align-items-end"> <img src="image/horn.svg" alt="uhost whmcs theme"> </div>
+                  <h4>Diversified Plugins</h4>
+                </div>
+                <div class="card_style_three">
+                  <div class="icon d-flex align-items-end"> <img src="image/bookmark2.svg" alt="uhost whmcs theme"> </div>
+                  <h4>Mobile Compatible</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="wordpress_site">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-md-8 col-12">
+        <h2 class="main_headings fw-600">Our WordPress Site - <span class="text_styles_underline">powered</span></h2>
+        <p class="small_headings">by our Cloud Hosting</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row g-xl-3 gy-5">
+      <div class="col-md-3 col-12">
+        <div class="card_style_one position-relative text-start">
+          <div class="icon rounded d-flex align-items-center justify-content-center" style="background-color: #FFEBDB;"> <img src="image/filter.svg" alt="uhost whmcs theme"> </div>
+          <h4 class="fw-500 my-3"> <a href="" class="tran3s text-dark"> Blazing-Fast Load Time </a> </h4>
+          <p class="mb-3 text-justify"> With top-of-the-line hardware and caching - which stores your site's most used pages, and a globally distributed CDN, your site is served upto 2x faster. </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card_style_one position-relative text-start">
+          <div class="icon rounded d-flex align-items-center justify-content-center" style="background-color: rgba(100, 219, 226, 0.18);"> <img src="image/user.svg" alt="uhost whmcs theme"> </div>
+          <h4 class="fw-500 my-3"> <a href="" class="tran3s text-dark"> Instant Scaling </a> </h4>
+          <p class="mb-3 text-justify"> No need to move your hosting as your traffic grows. Ramp up your resources at the click of a button - instantly add RAM and CPU without a reboot. </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card_style_one position-relative text-start">
+          <div class="icon rounded d-flex align-items-center justify-content-center" style="background-color: rgba(255, 160, 194, 0.18);"> <img src="image/bookmark3.svg" alt="uhost whmcs theme"> </div>
+          <h4 class="fw-500 my-3"> <a href="" class="tran3s text-dark"> Your Data - Safeguarded </a> </h4>
+          <p class="mb-3 text-justify"> Our industry-leading Ceph-based storage system stores your website data across 3 distinct devices to ensure redundancy and safety. </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card_style_one position-relative text-start">
+          <div class="icon rounded d-flex align-items-center justify-content-center" style="background-color: rgba(246, 243, 255, 1);"> <img src="image/dotted.svg" alt="uhost whmcs theme"> </div>
+          <h4 class="fw-500 my-3"> <a href="" class="tran3s text-dark"> Automatic Failover </a> </h4>
+          <p class="mb-3 text-justify"> If we detect a hardware issue, we automatically move your site to another server, ensuring that your site is always up and you never lose traffic. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="faq my-md-5 my-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center col-12">
+        <h1 class="main_headings"><span class="text_styles_underline">Frequently</span> Asked Queries </h1>
+      </div>
+    </div>
+    <div class="row my-md-5 my-3 justify-content-center">
+      <div class="col-md-10 col-12">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button  fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Can I upgrade my WordPress Hosting plan? </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> No, You cannot change upgrade or downgrade plans, however the amount of RAM and CPU cores for your plan can be upgraded. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Can I add more WordPress installations to an existing plan? </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> No, you cannot add more WordPress installations to any plan. The number of WordPress installations will remain fixed. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Can SiteLock and CodeGuard packages be upgraded? </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> Currently, the included SiteLock and CodeGuard plans cannot be upgraded. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Can I use an external email service with WordPress Hosting? </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> Yes, you can use any 3rd party email service for your domain. In case you are using the default name servers provided with WordPress Hosting, please contact our Support team to update the relevant DNS records for your blog. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> Can I use an existing certificate with my blog? </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> No, you cannot use an existing certificate. You will need to generate a CSR from the WordPress Hosting panel and get a certificate issued which can be installed from the panel. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> Will WordPress be updated automatically? </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> Yes, WordPress core updates will be enabled by default. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"> Is there a money back period for WordPress Hosting? </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> No, WordPress Hosting does not have a money back period. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingEight">
+              <button class="accordion-button collapsed fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"> Is Multisite supported with WordPress Hosting? </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> No, Multisite is not supported. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingNine">
+              <button class="accordion-button collapsed fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"> Can I access the cPanel for my hosting plan? </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> No, cPanel access is not provided with WordPress Hosting. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingTen">
+              <button class="accordion-button collapsed fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen"> Is an SSL Certificate included with the plan? </button>
+            </h2>
+            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> Yes. When you purchase a WordPress Hosting order, Free SSL powered by Let's Encrypt, is automatically generated and installed for all domains associated with the package </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingEleven">
+              <button class="accordion-button collapsed fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven"> What is the difference between "WordPress Hosting" and "WordPress Hosting + Security Suite" plans? </button>
+            </h2>
+            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> WordPress Hosting plans are economical plans without automatic backups and anti-malware. WordPress Hosting + Security plans have the same specifications as that of the WordPress hosting plans, including automatic cloud backups and anti-malware at a cost difference. </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="SerchDomaintestmonilas my-md-5 my-3">
+  <div class="container py-5">
+    <div class="row justify-content-center text-center">
+      <div class="col-md-8">
+        <h2 class="main_headings">Our <span class="text_styles_underline">Client</span> Says</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 ">
+        <div class="swiper-container py-5 px-3 swiper-container_search">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="icon_feed text-start"> <img src="image/quete.svg" class="icon_feedback" alt="uhost whmcs theme"> </div>
+              <p>I chose you because you create added value over the price offered by other hosting companies. it's been a great experience for me. I'm leaving happy. Thank you.</p>
+              <h4 class="text-start">Anonymous Customer, <span class="fw-light"> Figma</span> </h4>
+            </div>
+            <div class="swiper-slide">
+              <div class="icon_feed text-start"> <img src="image/quete.svg" class="icon_feedback" alt="uhost whmcs theme"> </div>
+              <p>I chose you because you create added value over the price offered by other hosting companies. it's been a great experience for me. I'm leaving happy. Thank you.</p>
+              <h4 class="text-start">Anonymous Customer, <span class="fw-light"> Figma</span> </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<section class="signup_bannner mt-3">
+  <div class="container">
+    <div class="signup_bannner_bck position-relative  py-md-5 py-4 px-3 px-md-3">
+      <div class="row">
+        <div class="col-lg-11 m-auto">
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-5">
+              <h2 class="m0 text-white fw-bold md-pb-20">Need help? We're always here for you.</h2>
+              <p class="small_headings text-white">We are available 24/7 to help you with your queries, Our servers include semi-managed support.</p>
+            </div>
+            <div class="col-xl-6 col-lg-7">
+              <div class="d-sm-flex align-items-center justify-content-center justify-content-lg-end"> <a href="" class="btn-underline mb-3 mb-md-0 fw-500 tran3s position-relative me-sm-5">Chat with a an Expert</a> <a href="contact_us.html" class="btn-simple fw-500 tran3s">Contact Us</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer start -->
+<footer class="footer">
+  <div class="position-relative bg-footer mx-md-3 mb-md-3">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-6">
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Domain</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="domain_search.html" class="nav-link p-0 footer-link">Domain Search</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="domain_transfer.html" class="nav-link p-0 footer-link">Domain Transfer</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Hosting</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="shared_hosting.html" class="nav-link p-0 footer-link">Shared Hosting</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="reseller_hosting.html" class="nav-link p-0 footer-link">Resseller Hosting</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="wordpress_hosting.html" class="nav-link p-0 footer-link">Wordpress Hosting</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Server</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="vps_server.html" class="nav-link p-0 footer-link">VPS Server</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="cloud_hosting.html" class="nav-link p-0 footer-link">Cloud Hosting</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="dedicated_server.html" class="nav-link p-0 footer-link">Dedicated Server</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Email</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="google_workspace.html" class="nav-link p-0 footer-link">Google Workspace</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="business_email.html" class="nav-link p-0 footer-link">Bussiness Email</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="enterprise_email.html" class="nav-link p-0 footer-link">Enterprise Email</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">SSL Security</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="ssl_certificates.html" class="nav-link p-0 footer-link">SSL Certificates</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="website_security.html" class="nav-link p-0 footer-link">Website Security</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="website_backup.html" class="nav-link p-0 footer-link">Website Backup</a> </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5 class="footer-title text-uppercase">Social Media</h5>
+          <ul class="nav social_media_icon">
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-twitter vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3 "><a href="#" class="nav-link text-muted"><i class="fab fa-youtube vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-linkedin-in vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-dribbble vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-facebook vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-instagram vertical-align-bottom"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex-column flex-sm-row justify-content-between pt-4  mt-4 border-top">
+        <h5 class="footer-title text-uppercase">Quick links</h5>
+        <ul class="nav d-md-flex d-grid footer_link ">
+          <li class="nav-item me-5 mb-3"><a href="open_ticket.html" class="nav-link p-0">Open Tickets</a></li>
+          <li class="nav-item me-5 mb-3"><a href="tickets.html" class="nav-link p-0">Tickets</a></li>
+          <li class="nav-item me-5 mb-3"><a href="announcements.html" class="nav-link p-0">Announcements</a></li>
+          <li class="nav-item me-5 mb-3"><a href="knowledgebase" class="nav-link p-0">Knowledgebase</a></li>
+          <li class="nav-item me-5 mb-3"><a href="network_status.html" class="nav-link p-0">Network Status</a></li>
+          <li class="nav-item me-5 mb-3"><a href="about_us.html" class="nav-link p-0">About Us</a></li>
+          <li class="nav-item me-5 mb-3"><a href="contact_us.html" class="nav-link p-0">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center my-3 my-md-4 pb-0 pb-md-4">
+        <div class="">
+          <p class="mb-0">© 2022 UHost, Inc. All rights reserved.</p>
+        </div>
+        <div class=""> <a href="privacy_policy.html" class="me-md-3 me-2">Privacy Policy</a> <a href="term_condition.html">Terms and Conditions</a> </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<button type="button" class="btn btn-danger btn-floating btn-lg shadow" id="btn-back-to-top"> <i class="fas fa-arrow-up"></i> </button>
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/swiper-bundle.min.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>

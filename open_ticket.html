@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="description" content="UHost">
+<meta name="author" content="RedCheap Theme">
+<title>UHost - Web Hosting | VPS Server | Dedicated Server</title>
+<link rel="icon" type="image/png" sizes="56x56" href="image/favicon.png">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/swiper-bundle.css">
+</head>
+<body>
+<!-- ======= Header ======= -->
+<header id="header" class="header  mx-md-3">
+  <div class="container pt-md-3">
+    <div class="row justify-content-end">
+      <div class="col-md-6 col-12">
+        <div class="d-flex justify-content-end">
+          <select class="form-select rounded-0 w-25 form-select-sm mx-2 border-0" aria-label=".form-select-sm example">
+            <option selected disabled class="fs-10">Language</option>
+            <option value="1">English</option>
+            <option value="2">Hindi</option>
+            <option value="3">Punjabi</option>
+          </select>
+          <select class="form-select rounded-0 w-25 form-select-sm border-0" aria-label=".form-select-sm example">
+            <option selected disabled class="fs-10">Currency</option>
+            <option value="1">INR</option>
+            <option value="2">GPB</option>
+            <option value="3">USD</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-lg d-flex align-items-center justify-content-between"> <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0"> <img src="image/logo.png" alt="uhost whmcs theme"> </a>
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li> <a class="nav-link " href="index.html">Home</a> </li>
+        <li class="dropdown"> <a href="#"> <span class="dropdown_after">Domain</span> </a>
+          <ul>
+            <li> <a href="domain_search.html" class="">Domain Search</a> </li>
+            <li> <a href="domain_transfer.html">Domain Transfer</a> </li>
+          </ul>
+        </li>
+        <li class="dropdown megamenu"> <a href="#" class=""> <span class="dropdown_after">Services</span> </a>
+          <ul>
+            <li>
+              <h6 class="mega_menu_heading">Hosting</h6>
+              <a href="shared_hosting.html">Shared Hosting</a> <a href="reseller_hosting.html">Reseller Hosting</a> <a href="wordpress_hosting.html">Wordpress hosting</a> </li>
+            <li>
+              <h6 class="mega_menu_heading">Server</h6>
+              <a href="dedicated_server.html">Dedicated Server</a> <a href="vps_server.html">VPS Server</a> <a href="cloud_hosting.html">Cloud Hosting</a> </li>
+          </ul>
+        </li>
+        <li class="dropdown megamenu"> <a href="#" class=""> <span class="dropdown_after">Email & Security</span> </a>
+          <ul>
+            <li>
+              <h6 class="mega_menu_heading">Email</h6>
+              <a href="google_workspace.html">Google Workspace </a> <a href="business_email.html">Business Email</a> <a href="enterprise_email.html">Enterprise Email</a> </li>
+            <li>
+              <h6 class="mega_menu_heading">SSL Security</h6>
+              <a href="ssl_certificates.html">SSL Certificates</a> <a href="website_security.html">Website Security</a> <a href="website_backup.html">Website Backup</a> </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#" class="active"> <span class="dropdown_after">Support</span> </a>
+          <ul>
+            <li> <a href="open_ticket.html" class="active">Open Ticket</a> </li>
+            <li> <a href="tickets.html">Tickets</a> </li>
+            <li> <a href="announcements.html">Announcements</a> </li>
+            <li> <a href="knowledgebase.html">Knowledgebase</a> </li>
+            <li> <a href="network_status.html">Network Status</a> </li>
+            <li> <a href="contact_us.html">Contact Us</a> </li>
+          </ul>
+        </li>
+        <li> <a class="nav-link" href="about_us.html">About Us</a> </li>
+      </ul>
+    </nav>
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger rounded-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa fa-user ms-2"></i> Account </button>
+      <ul class="dropdown-menu dropdown-menuUser">
+        <li> <a class="dropdown-item dropdown-itemUser" href="login.html">Login</a> </li>
+        <li> <a class="dropdown-item dropdown-itemUser" href="registar.html">Register</a> </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li> <a class="dropdown-item dropdown-itemUser" href="forgot_password.html">Forgot Password</a> </li>
+      </ul>
+    </div>
+    <a class="btn d-lg-none d-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> <i class="fa fa-bars fw-bold fs-30"></i> </a> 
+    <!-- header mobile view -->
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="image/logo.png" class="img-fluid w-50" alt="uhost whmcs theme"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p class="p-3 pb-0 mb-0"> <a href="index.html" class="">Home</a></p>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"> Domain </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse p-3" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="domain_search.html" class="nav-link p-0 text-muted">Domain Search</a> </li>
+                <li class="nav-item mb-2"> <a href="domain_transfer.html" class="nav-link p-0 text-muted">Domain Transfer</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"> Services </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse p-3" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="shared_hosting.html" class="nav-link p-0 text-muted">Shared Hosting</a> </li>
+                <li class="nav-item mb-2"> <a href="reseller_hosting.html" class="nav-link p-0 text-muted">Reseller Hosting</a> </li>
+                <li class="nav-item mb-2"> <a href="wordpress_hosting.html" class="nav-link p-0 text-muted">Wordpress hosting</a> </li>
+                <li class="nav-item mb-2"> <a href="dedicated_server.html" class="nav-link p-0 text-muted">Dedicated Server</a> </li>
+                <li class="nav-item mb-2"> <a href="vps_server.html" class="nav-link p-0 text-muted">VPS Server</a> </li>
+                <li class="nav-item mb-2"> <a href="cloud_hosting.html" class="nav-link p-0 text-muted">Cloud Hosting</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"> Email & Security </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse p-3" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="google_workspace.html" class="nav-link p-0 text-muted">Google Workspace </a> </li>
+                <li class="nav-item mb-2"> <a href="business_email.html" class="nav-link p-0 text-muted">Business Email</a> </li>
+                <li class="nav-item mb-2"> <a href="enterprise_email.html" class="nav-link p-0 text-muted">Enterprise Email</a> </li>
+                <li class="nav-item mb-2"> <a href="ssl_certificates.html" class="nav-link p-0 text-muted">SSL Certificates</a> </li>
+                <li class="nav-item mb-2"> <a href="website_security.html" class="nav-link p-0 text-muted">Website Security</a> </li>
+                <li class="nav-item mb-2"> <a href="website_backup.html" class="nav-link p-0 text-muted">Website Backup</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="true" aria-controls="flush-collapseFour"> Support </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse show p-3" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="open_ticket.html" class="nav-link p-0 text-muted active_mob_view">Open Ticket</a> </li>
+                <li class="nav-item mb-2"> <a href="tickets.html" class="nav-link p-0 text-muted">Tickets</a> </li>
+                <li class="nav-item mb-2"> <a href="announcements.html" class="nav-link p-0 text-muted">Announcements</a> </li>
+                <li class="nav-item mb-2"> <a href="knowledgebase.html" class="nav-link p-0 text-muted">Knowledgebase</a> </li>
+                <li class="nav-item mb-2"> <a href="network_status.html" class="nav-link p-0 text-muted">Network Status</a> </li>
+                <li class="nav-item mb-2"> <a href="contact_us.html" class="nav-link p-0 text-muted">Contact Us</a> </li>
+              </ul>
+            </div>
+          </div>
+          <p class="p-3 pb-0"> <a href="about_us.html">About Us</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="pt-5 mx-md-3 tickets position-relative z-index-5">
+  <div class="container py-5">
+    <div class="row flex-md-row-reverse align-items-center g-5 py-5">
+      <div class="col-md-12 col-12 text-center">
+        <h1 class="display-4  fw-700 lh-1 mb-3">Open <span class="text_styles_underline">Ticket</span></h1>
+        <nav class="navbar navbar-expand-lg navbar-light mt-5">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+              <li class="breadcrumb-item"><a href="index.html" class="p-0">Portal Home</a></li>
+              <li class="breadcrumb-item"><a href="#" class="p-0">Support</a></li>
+              <li class="breadcrumb-item active" aria-current="page"><a href="open_ticket.html" class="p-0">Open Ticket</a></li>
+            </ol>
+          </nav>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="open_ticket  my-md-5 my-3">
+  <div class="container">
+    <form class="" action="" method="post">
+      <div class="row">
+        <p class="fw-600">Ticket Information</p>
+      </div>
+      <div class="row bg-light rounded border py-5 px-3">
+        <div class="row">
+          <div class="col-md-6 col-12 mb-3">
+            <label for="name" class="form-label fw-600 text-muted">Name</label>
+            <input type="text" class="form-control form-control-lg" placeholder="" id="name">
+          </div>
+          <div class="col-md-6 col-12 mb-3">
+            <label for="email" class="form-label fw-600 text-muted">Email Address</label>
+            <input type="email" class="form-control form-control-lg" placeholder="" id="email">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-12 mb-3">
+            <label for="department" class="form-label fw-600 text-muted">Department</label>
+            <select class="form-select form-select-lg" id="department">
+              <option disabled selected hidden>Choose...</option>
+              <option value="1">General Enquery</option>
+            </select>
+          </div>
+          <div class="col-md-6 col-12 mb-3">
+            <label for="priority" class="form-label fw-600 text-muted">Priority</label>
+            <select class="form-select form-select-lg" id="priority">
+              <option disabled selected hidden>Choose...</option>
+              <option value="1">High</option>
+              <option value="2">Medium</option>
+              <option value="3">Low</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row my-3 mb-0">
+        <p class="fw-600">Your Message</p>
+      </div>
+      <div class="row bg-light rounded border py-5 px-3">
+        <div class="col-md-12 col-12 mb-3">
+          <label for="subject" class="form-label fw-600 text-muted">Subject</label>
+          <input type="text" class="form-control form-control-lg" placeholder="" id="subject">
+        </div>
+        <div class="col-md-12 col-12 mb-3">
+          <label for="message" class="form-label fw-600 text-muted">Message</label>
+          <textarea name="message" rows="8" cols="80" id="message" class="form-control form-control-lg" placeholder=""></textarea>
+        </div>
+      </div>
+      <div class="row my-3 mb-0">
+        <p class="fw-600">Attachments</p>
+      </div>
+      <div class="row bg-light rounded border py-5 px-3">
+        <div class="col-md-12 col-12 mb-3">
+          <label for="files" class="form-label" hidden>Attachments</label>
+          <input class="form-control " type="file" id="files" accept="image/*,.pdf, .txt" />
+          <p class="fs-15 mb-0">Allowed File Extensions: .jpg, .gif, .jpeg, .png, .txt, .pdf (Max file size: 1024MB)</p>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <input type="submit" name="submit" value="Submit" class="effect-1 fw-600 col-md-2 col-12 tran3s">
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- footer -->
+<section class="signup_bannner mt-3">
+  <div class="container">
+    <div class="signup_bannner_bck position-relative  py-md-5 py-4 px-3 px-md-3">
+      <div class="row">
+        <div class="col-lg-11 m-auto">
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-5">
+              <h2 class="m0 text-white fw-bold md-pb-20">Need help? We're always here for you.</h2>
+              <p class="small_headings text-white">We are available 24/7 to help you with your queries, Our servers include semi-managed support.</p>
+            </div>
+            <div class="col-xl-6 col-lg-7">
+              <div class="d-sm-flex align-items-center justify-content-center justify-content-lg-end"> <a href="" class="btn-underline mb-3 mb-md-0 fw-500 tran3s position-relative me-sm-5">Chat with a an Expert</a> <a href="contact_us.html" class="btn-simple fw-500 tran3s">Contact Us</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer start -->
+<footer class="footer">
+  <div class="position-relative bg-footer mx-md-3 mb-md-3">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-6">
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Domain</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="domain_search.html" class="nav-link p-0 footer-link">Domain Search</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="domain_transfer.html" class="nav-link p-0 footer-link">Domain Transfer</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Hosting</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="shared_hosting.html" class="nav-link p-0 footer-link">Shared Hosting</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="reseller_hosting.html" class="nav-link p-0 footer-link">Resseller Hosting</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="wordpress_hosting.html" class="nav-link p-0 footer-link">Wordpress Hosting</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Server</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="vps_server.html" class="nav-link p-0 footer-link">VPS Server</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="cloud_hosting.html" class="nav-link p-0 footer-link">Cloud Hosting</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="dedicated_server.html" class="nav-link p-0 footer-link">Dedicated Server</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Email</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="google_workspace.html" class="nav-link p-0 footer-link">Google Workspace</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="business_email.html" class="nav-link p-0 footer-link">Bussiness Email</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="enterprise_email.html" class="nav-link p-0 footer-link">Enterprise Email</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">SSL Security</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="ssl_certificates.html" class="nav-link p-0 footer-link">SSL Certificates</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="website_security.html" class="nav-link p-0 footer-link">Website Security</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="website_backup.html" class="nav-link p-0 footer-link">Website Backup</a> </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5 class="footer-title text-uppercase">Social Media</h5>
+          <ul class="nav social_media_icon">
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-twitter vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3 "><a href="#" class="nav-link text-muted"><i class="fab fa-youtube vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-linkedin-in vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-dribbble vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-facebook vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-instagram vertical-align-bottom"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex-column flex-sm-row justify-content-between pt-4  mt-4 border-top">
+        <h5 class="footer-title text-uppercase">Quick links</h5>
+        <ul class="nav d-md-flex d-grid footer_link ">
+          <li class="nav-item me-5 mb-3"><a href="open_ticket.html" class="nav-link p-0">Open Tickets</a></li>
+          <li class="nav-item me-5 mb-3"><a href="tickets.html" class="nav-link p-0">Tickets</a></li>
+          <li class="nav-item me-5 mb-3"><a href="announcements.html" class="nav-link p-0">Announcements</a></li>
+          <li class="nav-item me-5 mb-3"><a href="knowledgebase" class="nav-link p-0">Knowledgebase</a></li>
+          <li class="nav-item me-5 mb-3"><a href="network_status.html" class="nav-link p-0">Network Status</a></li>
+          <li class="nav-item me-5 mb-3"><a href="about_us.html" class="nav-link p-0">About Us</a></li>
+          <li class="nav-item me-5 mb-3"><a href="contact_us.html" class="nav-link p-0">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center my-3 my-md-4 pb-0 pb-md-4">
+        <div class="">
+          <p class="mb-0">© 2022 UHost, Inc. All rights reserved.</p>
+        </div>
+        <div class=""> <a href="privacy_policy.html" class="me-md-3 me-2">Privacy Policy</a> <a href="term_condition.html">Terms and Conditions</a> </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<button type="button" class="btn btn-danger btn-floating btn-lg shadow" id="btn-back-to-top"> <i class="fas fa-arrow-up"></i> </button>
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/swiper-bundle.min.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>

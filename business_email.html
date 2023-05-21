@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="description" content="UHost">
+<meta name="author" content="RedCheap Theme">
+<title>UHost - Web Hosting | VPS Server | Dedicated Server</title>
+<link rel="icon" type="image/png" sizes="56x56" href="image/favicon.png">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/swiper-bundle.css">
+</head>
+<body>
+<!-- ======= Header ======= -->
+<header id="header" class="header  mx-md-3">
+  <div class="container pt-md-3">
+    <div class="row justify-content-end">
+      <div class="col-md-6 col-12">
+        <div class="d-flex justify-content-end">
+          <select class="form-select rounded-0 w-25 form-select-sm mx-2 border-0" aria-label=".form-select-sm example">
+            <option selected disabled class="fs-10">Language</option>
+            <option value="1">English</option>
+            <option value="2">Hindi</option>
+            <option value="3">Punjabi</option>
+          </select>
+          <select class="form-select rounded-0 w-25 form-select-sm border-0" aria-label=".form-select-sm example">
+            <option selected disabled class="fs-10">Currency</option>
+            <option value="1">INR</option>
+            <option value="2">GPB</option>
+            <option value="3">USD</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-lg d-flex align-items-center justify-content-between"> <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0"> <img src="image/logo.png" alt="uhost whmcs theme"> </a>
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li> <a class="nav-link" href="index.html">Home</a> </li>
+        <li class="dropdown"> <a href="#"> <span class="dropdown_after">Domain</span> </a>
+          <ul>
+            <li> <a href="domain_search.html" class="">Domain Search</a> </li>
+            <li> <a href="domain_transfer.html">Domain Transfer</a> </li>
+          </ul>
+        </li>
+        <li class="dropdown megamenu"> <a href="#" class=""> <span class="dropdown_after">Services</span> </a>
+          <ul>
+            <li>
+              <h6 class="mega_menu_heading">Hosting</h6>
+              <a href="shared_hosting.html">Shared Hosting</a> <a href="reseller_hosting.html">Reseller Hosting</a> <a href="wordpress_hosting.html">Wordpress hosting</a> </li>
+            <li>
+              <h6 class="mega_menu_heading">Server</h6>
+              <a href="dedicated_server.html">Dedicated Server</a> <a href="vps_server.html">VPS Server</a> <a href="cloud_hosting.html">Cloud Hosting</a> </li>
+          </ul>
+        </li>
+        <li class="dropdown megamenu"> <a href="#" class="active"> <span class="dropdown_after">Email & Security</span> </a>
+          <ul>
+            <li>
+              <h6 class="mega_menu_heading">Email</h6>
+              <a href="google_workspace.html">Google Workspace </a> <a href="business_email.html" class="active">Business Email</a> <a href="enterprise_email.html">Enterprise Email</a> </li>
+            <li>
+              <h6 class="mega_menu_heading">SSL Security</h6>
+              <a href="ssl_certificates.html">SSL Certificates</a> <a href="website_security.html">Website Security</a> <a href="website_backup.html">Website Backup</a> </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span class="dropdown_after">Support</span> </a>
+          <ul>
+            <li> <a href="open_ticket.html" class="">Open Ticket</a> </li>
+            <li> <a href="tickets.html">Tickets</a> </li>
+            <li> <a href="announcements.html">Announcements</a> </li>
+            <li> <a href="knowledgebase.html">Knowledgebase</a> </li>
+            <li> <a href="network_status.html">Network Status</a> </li>
+            <li> <a href="contact_us.html">Contact Us</a> </li>
+          </ul>
+        </li>
+        <li> <a class="nav-link" href="about_us.html">About Us</a> </li>
+      </ul>
+    </nav>
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger rounded-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa fa-user ms-2"></i> Account </button>
+      <ul class="dropdown-menu dropdown-menuUser">
+        <li> <a class="dropdown-item dropdown-itemUser" href="login.html">Login</a> </li>
+        <li> <a class="dropdown-item dropdown-itemUser" href="registar.html">Register</a> </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li> <a class="dropdown-item dropdown-itemUser" href="forgot_password.html">Forgot Password</a> </li>
+      </ul>
+    </div>
+    <a class="btn d-lg-none d-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> <i class="fa fa-bars fw-bold fs-30"></i> </a> 
+    <!-- header mobile view -->
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="image/logo.png" class="img-fluid w-50" alt="uhost whmcs theme"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p class="p-3 pb-0 mb-0"> <a href="index.html" class="">Home</a></p>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"> Domain </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse p-3" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="domain_search.html" class="nav-link p-0 text-muted">Domain Search</a> </li>
+                <li class="nav-item mb-2"> <a href="domain_transfer.html" class="nav-link p-0 text-muted">Domain Transfer</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"> Services </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse p-3" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="shared_hosting.html" class="nav-link p-0 text-muted">Shared Hosting</a> </li>
+                <li class="nav-item mb-2"> <a href="reseller_hosting.html" class="nav-link p-0 text-muted">Reseller Hosting</a> </li>
+                <li class="nav-item mb-2"> <a href="wordpress_hosting.html" class="nav-link p-0 text-muted">Wordpress hosting</a> </li>
+                <li class="nav-item mb-2"> <a href="dedicated_server.html" class="nav-link p-0 text-muted">Dedicated Server</a> </li>
+                <li class="nav-item mb-2"> <a href="vps_server.html" class="nav-link p-0 text-muted">VPS Server</a> </li>
+                <li class="nav-item mb-2"> <a href="cloud_hosting.html" class="nav-link p-0 text-muted">Cloud Hosting</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="true" aria-controls="flush-collapseThree"> Email & Security </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse show p-3" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="google_workspace.html" class="nav-link p-0 text-muted">Google Workspace </a> </li>
+                <li class="nav-item mb-2"> <a href="business_email.html" class="nav-link p-0 text-muted active_mob_view">Business Email</a> </li>
+                <li class="nav-item mb-2"> <a href="enterprise_email.html" class="nav-link p-0 text-muted">Enterprise Email</a> </li>
+                <li class="nav-item mb-2"> <a href="ssl_certificates.html" class="nav-link p-0 text-muted">SSL Certificates</a> </li>
+                <li class="nav-item mb-2"> <a href="website_security.html" class="nav-link p-0 text-muted">Website Security</a> </li>
+                <li class="nav-item mb-2"> <a href="website_backup.html" class="nav-link p-0 text-muted">Website Backup</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour"> Support </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse p-3" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"> <a href="open_ticket.html" class="nav-link p-0 text-muted">Open Ticket</a> </li>
+                <li class="nav-item mb-2"> <a href="tickets.html" class="nav-link p-0 text-muted">Tickets</a> </li>
+                <li class="nav-item mb-2"> <a href="announcements.html" class="nav-link p-0 text-muted">Announcements</a> </li>
+                <li class="nav-item mb-2"> <a href="knowledgebase.html" class="nav-link p-0 text-muted">Knowledgebase</a> </li>
+                <li class="nav-item mb-2"> <a href="network_status.html" class="nav-link p-0 text-muted">Network Status</a> </li>
+                <li class="nav-item mb-2"> <a href="contact_us.html" class="nav-link p-0 text-muted">Contact Us</a> </li>
+              </ul>
+            </div>
+          </div>
+          <p class="p-3 pb-0"> <a href="about_us.html">About Us</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="pt-5 mx-md-3 pt-md-50 pt-50 mt-md-3 hero position-relative z-index-5">
+  <div class="container py-md-5 py-3">
+    <div class="row align-items-center g-5 py-5">
+      <div class="col-md-6 col-12">
+        <h1 class="display-4 banner_heading fw-bold lh-2 mb-3">Simple, Powerful Email for Small <span class="text_styles_underline">Businesses</span></h1>
+        <p class="lead">Give your business a professional makeover with email@yourbrand.com</p>
+        <a href="#princing" class=" effect-1 fw-500 tran3s">Buy Now</a> </div>
+      <div class="col-md-6 ms-md-auto col-12"> <img class="img-fluid" src="image/daily-backups.svg" alt="uhost whmcs theme"> </div>
+    </div>
+  </div>
+</section>
+<section class="shared_plan my-md-5 my-3 princing" id="princing">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-12 text-center">
+        <h1 class="main_headings">Get started with the number of <span class="text_styles_underline">Hosting</span> email</h1>
+        <p class="small_headings">accounts you need</p>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-12">
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item princing_button" role="presentation">
+            <button class="nav-link  active rounded-pill rounded_right_bottom0" id="pills-monthly-tab" data-bs-toggle="pill" data-bs-target="#pills-monthly" type="button" role="tab" aria-controls="pills-monthly" aria-selected="true">Monthly</button>
+          </li>
+          <li class="nav-item princing_button" role="presentation">
+            <button class="nav-link  rounded-pill rounded_left_bottom0" id="pills-yearly-tab" data-bs-toggle="pill" data-bs-target="#pills-yearly" type="button" role="tab" aria-controls="pills-yearly" aria-selected="false" tabindex="-1">Yearly</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="tab-content Princing_tables" id="pills-tabContent">
+      <div class="tab-pane show active" id="pills-monthly" role="tabpanel" aria-labelledby="pills-monthly-tab">
+        <div class="row gx-xxl-5 gy-4 align-items-center">
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Business</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#E2F2FD;">
+                <div class="princing_price text-center fw-500 m-auto"> $100.99 <span>/mo</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Pro</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#FFEBEB;">
+                <div class="princing_price text-center fw-500 m-auto"> $100.99 <span>/mo</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Unlimited</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#FFF7EB;">
+                <div class="princing_price text-center fw-500 m-auto"> $100.99 <span>/mo</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane " id="pills-yearly" role="tabpanel" aria-labelledby="pills-yearly-tab">
+        <div class="row gx-xxl-5 gy-4 align-items-center">
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Business</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#E2F2FD;">
+                <div class="princing_price text-center fw-500 m-auto"> $130.99 <span>/yr</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Pro</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#FFEBEB;">
+                <div class="princing_price text-center fw-500 m-auto"> $120.99 <span>/yr</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="pr-table">
+              <div class="Princing_name text-dark fw-500">Unlimited</div>
+              <div class="prises_banner align-items-center d-md-flex mt-3" style="background:#FFF7EB;">
+                <div class="princing_price text-center fw-500 m-auto"> $110.99 <span>/yr</span> </div>
+              </div>
+              <ul class="nav flex-column text-start p-3 Princing_plan">
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Unlimited Email</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">5gb Hosting </a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">2 website 3 sub domain</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Email &amp; Live chat</a> </li>
+                <li class="nav-item mb-2"> <a class="nav-link p-0 text-muted">Discount Programe</a> </li>
+              </ul>
+              <a href="#princing" class="effect-1 fw-500 w-100"> Get Started Now </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="freeMail_forword my-md-5 my-3">
+  <div class="container ">
+    <div class="row py-md-5 py-3 px-md-5 px-3 mb-5 bg_mail  align-items-center">
+      <div class="col-md-6 col-12 ">
+        <h2 class="main_headings text-white"> Free Mail Forword </h2>
+        <p class="text-white"> Create free email forwards and automatically redirect your email to existing email accounts. </p>
+      </div>
+      <div class="col-md-6 col-12 justify-content-md-end text-md-center">
+        <div class="d-sm-flex align-items-center justify-content-center justify-content-lg-end"> <a href="" class="btn-underline mb-3 mb-md-0 fw-500 tran3s position-relative me-sm-5">Chat with a an Expert</a> <a href="contact_us.html" class="btn-simple fw-500 tran3s">Contact Us</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="features my-md-5 my-3">
+  <div class="container">
+    <div class="row mt-5 mb-3 align-items-center justify-content-center text-center">
+      <div class="col-md-8 col-12">
+        <h2 class="main_headings fw-600"> What's amazing about Business <span class="text_styles_underline">Email<span style="background-color:#ffce4c;"></span></span> </h2>
+        <p class="small_headings"> Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet</p>
+      </div>
+    </div>
+    <div class="row gx-xxl-5 gy-4 align-items-stretch">
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/files.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">Intuitive and Responsive Design</h4>
+          <p class="mb-5">Beautifully designed state of the art webmail platform. You can also access your email on your smartphone or tablet.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/leptop.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">Inbuilt Virus Protection</h4>
+          <p class="mb-5">Our advanced anti-virus technology secured your inbox and ensures that you are protected from downloading malware and viruses.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/svg/graph.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">5GB Storage Plus Backup</h4>
+          <p class="mb-5">In addition to 5GB mail storage, your emails are backed up in our state-of-the-art infrastructure so that you never lose important mails.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/video.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">Get Additional Storage</h4>
+          <p class="mb-5">No more worrying about running out of storage space. You can now increase storage for individual accounts by buying additional storage blocks of 5 GB.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/cloud.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">100% Uptime and Security</h4>
+          <p class="mb-5">Our high-end mail storage infrastructure guarantees zero data loss and redundancy, along with 100% network uptime.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card_style_two h-100">
+          <div class="icon d-flex align-items-end"> <img src="image/files.svg" class="cardtwoicon" alt="uhost whmcs theme"> </div>
+          <h4 class="my-3">Calendars and Contacts</h4>
+          <p class="mb-5">Manage contacts and keep track of all your meetings in one place with advanced productivity tools.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="faq my-md-5 my-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center col-12">
+        <h1 class="main_headings"><span class="text_styles_underline">Frequently</span> Asked Queries </h1>
+      </div>
+    </div>
+    <div class="row my-md-5 my-3 justify-content-center">
+      <div class="col-md-10 col-12">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> How will purchasing Business Email benefit me? </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> As opposed to free email solutions, you can give your business a more professional image with Business Email by getting email that is branded with your company's domain name (ex. sales@mybrand.com). In addition, you also benefit from our advanced email technology that gives you the least latency and industry-best uptime, scalability and reliability. An email service being served out of the cloud also means no IT, hardware, software, bandwidth or people costs. And the best part is that you can add email accounts as and when your team grows. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Which Email Clients and protocols are supported? </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> You can send and receive emails using any desktop-based email client such as Microsoft Outlook, Outlook Express, Mozilla Thunderbird, Eudora, Entourage 2004, Windows Mail, etc. We also have a guide on how you can configure different email clients to send/receive emails. The enterprise email product supports the POP, IMAP and MAPI protocols. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> How do I use my Webmail Interface? </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> To access your Webmail Interface, you can use the white-labelled URL: http://webmail.yourdomainname.com. Once on the log in page, you would need to login with your email address and the corresponding password. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> What is your SPAM policy? </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> We take a zero tolerance stance against sending of unsolicited email, bulk emailing, and spam. "Safe lists", purchased lists, and selling of lists will be treated as spam. Any user who sends out spam will have their account terminated with or without notice. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> Which mobile phones can I access my mail from? </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> Your email can be accessed using any Smartphone or Tablet. Our fluidic webmail, built on HTML 5 & Javascript, is compatible on all major Operating systems such as iOS, Android, Windows Mobile, Symbian and Blackberry. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> What is the space provided per Email Account? </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> Each email account comes with 5 GB space dedicated to emails. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"> What ports do I need to use for Email Hosting? </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> Usually, the port used for the Outgoing Mail Server/SMTP Service is 25. However, there might be a situation where your ISP might be blocking the use of port 25 for SMTP service. To circumvent this you can use an alternate port 587 for sending mails. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingEight">
+              <button class="accordion-button collapsed fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"> Can I create mailing lists? </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> Yes, you can create mailing lists and add/delete users, select a moderator, restrict people from joining a list or even ban users from a list. More information on this can be found in our knowledgebase. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 border-bottom">
+            <h2 class="accordion-header" id="headingNine">
+              <button class="accordion-button collapsed fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"> Can I use Auto Responders? </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+              <div class="accordion-body"> Yes, you can. An auto-responder is a program that, when setup for your email address, sends out an automatic, pre-set reply to an email, as soon as it is received at this email address. You can find out more about setting up an auto-responder from our knowledge base. </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<section class="signup_bannner mt-3">
+  <div class="container">
+    <div class="signup_bannner_bck position-relative  py-md-5 py-4 px-3 px-md-3">
+      <div class="row">
+        <div class="col-lg-11 m-auto">
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-5">
+              <h2 class="m0 text-white fw-bold md-pb-20">Need help? We're always here for you.</h2>
+              <p class="small_headings text-white">We are available 24/7 to help you with your queries, Our servers include semi-managed support.</p>
+            </div>
+            <div class="col-xl-6 col-lg-7">
+              <div class="d-sm-flex align-items-center justify-content-center justify-content-lg-end"> <a href="" class="btn-underline mb-3 mb-md-0 fw-500 tran3s position-relative me-sm-5">Chat with a an Expert</a> <a href="contact_us.html" class="btn-simple fw-500 tran3s">Contact Us</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer start -->
+<footer class="footer">
+  <div class="position-relative bg-footer mx-md-3 mb-md-3">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-6">
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Domain</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="domain_search.html" class="nav-link p-0 footer-link">Domain Search</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="domain_transfer.html" class="nav-link p-0 footer-link">Domain Transfer</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Hosting</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="shared_hosting.html" class="nav-link p-0 footer-link">Shared Hosting</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="reseller_hosting.html" class="nav-link p-0 footer-link">Resseller Hosting</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="wordpress_hosting.html" class="nav-link p-0 footer-link">Wordpress Hosting</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Server</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="vps_server.html" class="nav-link p-0 footer-link">VPS Server</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="cloud_hosting.html" class="nav-link p-0 footer-link">Cloud Hosting</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="dedicated_server.html" class="nav-link p-0 footer-link">Dedicated Server</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">Email</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="google_workspace.html" class="nav-link p-0 footer-link">Google Workspace</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="business_email.html" class="nav-link p-0 footer-link">Bussiness Email</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="enterprise_email.html" class="nav-link p-0 footer-link">Enterprise Email</a> </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5 class="footer-title text-uppercase">SSL Security</h5>
+          <ul class="nav footer_links_icon flex-column ">
+            <li class="nav-item mb-2 footer_link"> <a href="ssl_certificates.html" class="nav-link p-0 footer-link">SSL Certificates</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="website_security.html" class="nav-link p-0 footer-link">Website Security</a> </li>
+            <li class="nav-item mb-2 footer_link"> <a href="website_backup.html" class="nav-link p-0 footer-link">Website Backup</a> </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5 class="footer-title text-uppercase">Social Media</h5>
+          <ul class="nav social_media_icon">
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-twitter vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3 "><a href="#" class="nav-link text-muted"><i class="fab fa-youtube vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-linkedin-in vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-dribbble vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-facebook vertical-align-bottom"></i></a></li>
+            <li class="nav-item me-2 mb-3"><a href="#" class="nav-link text-muted"><i class="fab fa-instagram vertical-align-bottom"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex-column flex-sm-row justify-content-between pt-4  mt-4 border-top">
+        <h5 class="footer-title text-uppercase">Quick links</h5>
+        <ul class="nav d-md-flex d-grid footer_link ">
+          <li class="nav-item me-5 mb-3"><a href="open_ticket.html" class="nav-link p-0">Open Tickets</a></li>
+          <li class="nav-item me-5 mb-3"><a href="tickets.html" class="nav-link p-0">Tickets</a></li>
+          <li class="nav-item me-5 mb-3"><a href="announcements.html" class="nav-link p-0">Announcements</a></li>
+          <li class="nav-item me-5 mb-3"><a href="knowledgebase" class="nav-link p-0">Knowledgebase</a></li>
+          <li class="nav-item me-5 mb-3"><a href="network_status.html" class="nav-link p-0">Network Status</a></li>
+          <li class="nav-item me-5 mb-3"><a href="about_us.html" class="nav-link p-0">About Us</a></li>
+          <li class="nav-item me-5 mb-3"><a href="contact_us.html" class="nav-link p-0">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center my-3 my-md-4 pb-0 pb-md-4">
+        <div class="">
+          <p class="mb-0">© 2022 UHost, Inc. All rights reserved.</p>
+        </div>
+        <div class=""> <a href="privacy_policy.html" class="me-md-3 me-2">Privacy Policy</a> <a href="term_condition.html">Terms and Conditions</a> </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<button type="button" class="btn btn-danger btn-floating btn-lg shadow" id="btn-back-to-top"> <i class="fas fa-arrow-up"></i> </button>
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/swiper-bundle.min.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>
